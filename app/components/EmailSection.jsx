@@ -43,7 +43,7 @@ const EmailSection = () => {
     <section className="grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4">
         <div>
             <h5 className="text-xl font-bold text-white my-2"> 
-                Let's connect
+                Let s connect
             </h5>
             <div className="socials flex flex-row gap-2">
                 <Link href="linkedin.com">
