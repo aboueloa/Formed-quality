@@ -30,7 +30,7 @@ const ServiceSection = () => {
       ];
   return (
     <>
-        <h2 className="text-center text-4xl font-bold text-white mt-4 mb-4">
+        <h2 id = "services" className="text-center text-4xl font-bold text-white mt-4 mb-4">
             Nos services
         </h2>
         <div className="grid md:grid-cols-3 gap-8 md:gap-12">
