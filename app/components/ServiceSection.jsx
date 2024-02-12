@@ -23,7 +23,9 @@ const ServiceSection = () => {
         <div className="grid md:grid-cols-2 gap-8 md:gap-12">
           {
             services.map((service, index) => (
-              <ServiceCard imageUrl={service.image} title={service.title} href={service.href} />
+              <li key={index}>
+                <ServiceCard imageUrl={service.image} title={service.title} href={service.href} />
+              </li>
             ))
           }
           
