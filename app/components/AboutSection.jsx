@@ -51,7 +51,7 @@ const AboutSection = () => {
                     height={500}
                 />
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-                    <h2 className="text-4xl font-bold text-white mb-4">About us</h2>
+                    <h2 className="text-4xl font-bold text-white mb-4">À propos de nous</h2>
                     <p className="text-base lg:text-lg">
                     FORMED QUALITY est une société spécialiste en consulting relatif à la mise en
                     conformité des locaux pour l’installation des équipements de Radiologie,
