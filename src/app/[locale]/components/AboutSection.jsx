@@ -7,7 +7,7 @@ import {useTranslations} from 'next-intl';
 
 const TAB_DATA = [
     {
-        title: "Nos atouts",
+        title: "Nos atoutx",
         id: "nosAtouts",
         content: (
             <ul className='list-disc pl-2'>
