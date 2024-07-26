@@ -37,7 +37,7 @@ const TAB_DATA = [
 
 const AboutSection = () => {
   const t = useTranslations('Index');
-  const [tab, setTab] = useState("Nos atouts");
+  const [tab, setTab] = useState("Nos atoutx");
   const [isPending, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
@@ -59,9 +59,9 @@ const AboutSection = () => {
                     FORMED QUALITY {t('descAboutUS')}
                     </p>
                     <div className="flex flex-row justify-start mt-8">
-                        <TabButton selectTab ={() => handleTabChange("Nos atouts")} active = {tab === "Nos atouts"}>
+                        <TabButton selectTab ={() => handleTabChange("Nos atoutx")} active = {tab === "Nos atoutx"}>
                             {" "}
-                            Nos atouts{" "}    
+                            Nos atoutx{" "}    
                         </TabButton>
                         <TabButton selectTab ={() => handleTabChange("Notre organisation")} active = {tab === "Notre organisation"}>
                             {" "}
